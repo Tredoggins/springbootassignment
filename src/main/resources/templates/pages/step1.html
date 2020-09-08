@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Step 1</title>
+    <link rel="stylesheet" th:href="@{/style.css}">
+</head>
+<body>
+<div th:insert="fragments/_header :: header"></div>
+<h2>
+    Step 1: Get A Guitar!
+</h2>
+<p>
+    This might be obvious, but to play a chord on a guitar, you will need a guitar.<br>
+    *Pro tip* Make sure your guitar is tuned, otherwise it will not sound right.
+</p>
+<img th:src="@{/img/guitar.jpg}" alt="acoustic guitar">
+<div th:replace="fragments/_footer :: footer"></div>
+</body>
+</html>

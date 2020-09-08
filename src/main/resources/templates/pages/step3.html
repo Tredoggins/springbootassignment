@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Step 3</title>
+    <link rel="stylesheet" th:href="@{/style.css}">
+</head>
+<body>
+<div th:insert="fragments/_header :: header"></div>
+<h2>
+    Step 3: Strum!
+</h2>
+<p>
+    if you have done the previous two steps correctly, then when you strum the guitar, it will hopefully sound good.
+</p>
+<div th:replace="fragments/_footer :: footer"></div>
+</body>
+</html>

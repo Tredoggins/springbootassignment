@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Step 2</title>
+    <link rel="stylesheet" th:href="@{/style.css}">
+</head>
+<body>
+<div th:insert="fragments/_header :: header"></div>
+<h2>
+    Step 2: Put your fingers in the right place
+</h2>
+<p>
+    For your first chord, let's play a C Chord. Put your fingers on the guitar like the diagram below
+</p>
+<img th:src="@{/img/cchord.jpg}" alt="C chord finger placement">
+<div th:replace="fragments/_footer :: footer"></div>
+</body>
+</html>

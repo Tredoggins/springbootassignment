@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Learning to play Guitar</title>
+    <link rel="stylesheet" th:href="@{/style.css}">
+</head>
+<body>
+<div th:insert="fragments/_header :: header"></div>
+<h2>
+    Welcome to My Awesome site!
+</h2>
+<p>
+    Here you will hopefully learn how to play your first guitar chord
+</p>
+<h2>
+    What you will do:
+</h2>
+<p>
+    You will be playing a C Chord, which is one of the easiest chords to play on guitar
+</p>
+<div th:replace="fragments/_footer :: footer"></div>
+</body>
+</html>
